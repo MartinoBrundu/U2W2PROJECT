@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark">
+    <header>
+        <div class="container ms-4 d-flex px-0">
+            <nav class="navbar-expand navbar-expand-md navbar-expand-lg ">
+                <div class="container-fluid px-0">
+                    <div class="collapse navbar-collapse justify-content-md-between justify-content-lg-between"
+                        id="navbarText">
+                        <div class="d-flex justify-content-md-start justify-content-lg-start">
+                            <div class="">
+                                <a class="navbar-brand " href="#"><img width="100px"
+                                        src="./Netflix-assets/assets/netflix_logo.png" alt="logo netflix"></a>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <ul class="navbar-nav me-auto fs-6  ">
+                                <li class="nav-item mx-2 col text-white">
+                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item mx-2 text-white">
+                                    <a class="nav-link active" href="#">Tv Shows</a>
+                                </li>
+                                <li class="nav-item mx-2 text-white">
+                                    <a class="nav-link mx-2" href="#">Movies</a>
+                                </li>
+                                <li class="nav-item mx-2 text-white">
+                                    <a class="nav-link" href="#">Recently added</a>
+                                </li>
+                                <li class="nav-item mx-2 text-white">
+                                    <a class="nav-link" href="#">My list</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="d-flex w-25 justify-content-end align-items-center ">
+                            <svg class="mx-2 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                            <a class="mx-2 text-decoration-none text-white " href=""> KIDS</a>
+                            <svg class="mx-2 text-white " xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901" />
+                            </svg>
+                            <div class="w-25 mx-2">
+                                <img class=" w-50" src="./Netflix-assets/assets/kids_icon.png" alt="icon kids">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container d-flex mt-3 ms-4 justify-content-between">
+            <div class="d-flex  ">
+                <h1 class="text-white fs-4 me-3 ">TV Shows</h1>
+                <div class="btn-group " role="group">
+                    <button type="button" class="btn bg-black text-white border rounded-0 dropdown-toggle px1 py-1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Genres
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Film</a></li>
+                        <li><a class="dropdown-item" href="#">Documentary</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn bg-dark text-white border py-1 px-3"><svg  xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-justify-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5" />
+                        </svg></button>
+
+                    <button type="button" class="btn bg-dark text-white border py-1 px-3"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                            height="16" fill="currentColor" class="bi bi-border-outer" viewBox="0 0 16 16">
+                            <path
+                                d="M7.5 1.906v.938h1v-.938zm0 1.875v.938h1V3.78h-1zm0 1.875v.938h1v-.938zM1.906 8.5h.938v-1h-.938zm1.875 0h.938v-1H3.78v1zm1.875 0h.938v-1h-.938zm2.813 0v-.031H8.5V7.53h-.031V7.5H7.53v.031H7.5v.938h.031V8.5zm.937 0h.938v-1h-.938zm1.875 0h.938v-1h-.938zm1.875 0h.938v-1h-.938zM7.5 9.406v.938h1v-.938zm0 1.875v.938h1v-.938zm0 1.875v.938h1v-.938z" />
+                            <path d="M0 0v16h16V0zm1 1h14v14H1z" />
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3 ms-4 ">
+            <h6 class="text-white">Treding Now</h4>
+                <div class="row d-flex">
+                    <img class="w-25 col col-2 " src="./Netflix-assets/assets/media/media0.webp" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media1.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media2.webp" alt="">
+                    <img class="w-25 col col-2" src="Netflix-assets/assets/media/media3.webp" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media4.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media5.webp" alt="">
+                </div>
+
+        </div>
+
+        <div class="container mt-3 ms-4 ">
+            <h6 class="text-white">whatch it again</h4>
+                <div class="row d-flex">
+                    <img class="w-25 col col-2 " src="./Netflix-assets/assets/media/media6.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media7.webp" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media8.webp" alt="">
+                    <img class="w-25 col col-2" src="Netflix-assets/assets/media/media9.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media10.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media11.jpg" alt="">
+                </div>
+
+        </div>
+
+        <div class="container mt-3 ms-4 ">
+            <h6 class="text-white">New releases</h4>
+                <div class="row d-flex">
+                    <img class="w-25 col col-2 " src="./Netflix-assets/assets/media/media12.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media13.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media14.webp" alt="">
+                    <img class="w-25 col col-2" src="Netflix-assets/assets/media/media15.jpg" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media16.webp" alt="">
+                    <img class="w-25 col col-2" src="./Netflix-assets/assets/media/media17.jpg" alt="">
+                </div>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
